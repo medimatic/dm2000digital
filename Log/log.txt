@@ -1,0 +1,66 @@
+Initialize: PageMenu
+Initialize: Profile
+Initialize: Configuration
+Initialize: Acquisition
+Initialize: Data
+Initialize: Journal
+Send Caller Queue to Journal
+Continue Initializing
+Send Caller Queue to Acquisition
+Register User Parameters
+ResetToDefault
+Initialize
+Initialize: Dicom
+Cache User Parameters
+Load Hospital Info
+Subpanel: Load Menu
+Subpanel: Load Profile
+Reset Graphs
+Set SubVi Color
+Silent DAQ Initialization
+Update Display
+Set Acquisition Mode
+End Initializing
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+Subpanel: Load Configuration
+Cache User Parameters
+Update Display
+Subpanel: Load Acquisition
+Send Segment to Acquisition
+Cache User Parameters
+Subpanel: Load Data
+Cache User Parameters
+Subpanel: Load Journal
+Cache User Parameters
+Update Display
+Subpanel: Load Acquisition
+Send Segment to Acquisition
+Cache User Parameters
+Subpanel: Load Configuration
+Cache User Parameters
+Subpanel: Load Profile
+Cache User Parameters
+Query DAQ Availability
+Close SubVI
+Exit

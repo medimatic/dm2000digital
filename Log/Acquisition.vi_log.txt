@@ -1,0 +1,9 @@
+Init
+Populate Subpanels
+Set Caller Queue
+Set Color
+Set Mode
+Set Mode
+Set Segment
+Set Segment
+Stop

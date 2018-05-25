@@ -1,0 +1,1 @@
+{"profile":{"id":"","name":"","operator":"","doctor":"","comment":""},"hospital":{"name":"","department":"","address":""},"palpation":{"right":"","left":""},"Armpressure Right":[],"Armpressure Left":[]}

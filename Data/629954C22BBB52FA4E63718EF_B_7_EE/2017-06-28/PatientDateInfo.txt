@@ -1,0 +1,1 @@
+{"profile":{"id":"629954C22BBB52FA4E63718EF_B_7_EE","name":"SImon","operator":"Simon","doctor":"Simon","comment":""},"hospital":{"name":"Medimatic A/S","department":"Q","address":"Hellerupvej 75\n2900 Hellerup"},"palpation":{"right":"","left":""},"Armpressure Right":[],"Armpressure Left":[]}

@@ -1,0 +1,1 @@
+wlmscpfs -v -dfp ../MWLSCP 1234

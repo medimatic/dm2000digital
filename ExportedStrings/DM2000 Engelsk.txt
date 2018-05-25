@@ -1,0 +1,651 @@
+<VI syntaxVersion=11 LVversion=10008000 revision=1993 name="Medimatic.lvlib:DM2000v2.vi">
+<TITLE>DM2000 Digital Interface</TITLE>
+<HELP_PATH></HELP_PATH>
+<HELP_TAG></HELP_TAG>
+<RTM_PATH type="default"></RTM_PATH>
+<DESC></DESC>
+<CONTENT>
+	<GROUPER>
+		<PARTS>
+		</PARTS></GROUPER>
+	<CONTROL ID=195 type="Tab Control" name="Tab Control">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+			<DESC></DESC>
+			<TIP></TIP>
+			<PARTS>
+				<PART ID=92 order=0 type="Tab Caption"><LABEL><STEXT><FONT predef=DLGFONT>Profile</STEXT></LABEL></PART>
+			</PARTS>
+			<PART ID=8001 order=0 type="Array Index">
+				<CONTROL ID=87 type="Enum" name="">
+					<DESC></DESC>
+					<TIP></TIP>
+					<PARTS>
+						<PART ID=12 order=0 type="Ring Text"><MLABEL><STRINGS></STRINGS></MLABEL></PART>
+						<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT></STEXT></LABEL></PART>
+					</PARTS>
+				</CONTROL>
+			</PART>
+			<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT>Tab Control</STEXT></LABEL></PART>
+		</PARTS>
+		<PAGE>
+			<DESC></DESC>
+			<TIP></TIP>
+			<CONTROL ID=81 type="String" name="Name">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT><FONT name="Verdana" style='B' size=18></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT>Name</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+			<CONTROL ID=230 type="Listbox" name="ListboxCpr">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>ListboxCpr</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+						[0 0]<FONT predef=DLGFONT color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+						<STRING>CPR Number</STRING>
+					</COL_HEADER>
+					<STRINGS>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="AddCprBtn">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Add CPR Number</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>AddCprBtn</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="SelectCprBtn">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Select CPR Number</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>SelectCprBtn</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="SaveNameBtn">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Save</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>SaveNameBtn</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=230 type="Listbox" name="ListboxOperator">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Operator</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+						<STRING>Operator</STRING>
+					</COL_HEADER>
+					<STRINGS>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=230 type="Listbox" name="ListboxDoctor">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT></STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+						<STRING>Doctor</STRING>
+					</COL_HEADER>
+					<STRINGS>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="HospitalName">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>Department</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="EditHospInfo">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Edit</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT></STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="HospitalAddress">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>Address</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="CommentString">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Comment</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="HospitalDepartment">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>Hospital</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="SearchCprField">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Search</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+		</PAGE>
+		<PAGE>
+			<DESC></DESC>
+			<TIP></TIP>
+			<CONTROL ID=80 type="Numeric" name="LeftDiaAfter">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>LeftDiaAfter</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="LeftDiaBefore">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>LeftDiaBefore</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="RightDiaAfter">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>RightDiaAfter</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="RightDiaBefore">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>RightDiaBefore</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<LABEL><STEXT>Dia</STEXT></LABEL>
+			<LABEL><STEXT>Sys</STEXT></LABEL>
+			<LABEL><STEXT>Arm Pressure Before Measurement</STEXT></LABEL>
+			<CONTROL ID=80 type="Numeric" name="RightSysBefore">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>RightSysBefore</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="LeftSysBefore">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>LeftSysBefore</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="LeftSysAfter">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>LeftSysAfter</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="RightSysAfter">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>RightSysAfter</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<LABEL><STEXT>Arm Pressure After Measurement</STEXT></LABEL>
+			<CONTROL ID=80 type="Numeric" name="Puls">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>Puls</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="SaveArmPressureBtn">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Save</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>SaveArmPressureBtn</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=230 type="Listbox" name="ListboxMeasurementMeth">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT name="Arial TUR" style='B' size=18 color=100000C>Method</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+						[0 0]<FONT predef=DLGFONT size=18 color=000000>
+						[1 0]<FONT predef=DLGFONT size=18 color=000000>
+						[2 0]<FONT predef=DLGFONT size=18 color=000000>
+						[3 0]<FONT predef=DLGFONT size=18 color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+					</COL_HEADER>
+					<STRINGS>
+						<STRING>Distal Pressure</STRING>
+						<STRING>Skin Perfusion Pressure</STRING>
+						<STRING>Flow</STRING>
+						<STRING>Cerebral Blod Pressure</STRING>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=230 type="Listbox" name="ListboxMeasurementTechnique">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT name="Arial" style='B' size=18 color=100000C>Technique</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+						[1 0]<FONT predef=DLGFONT size=18 color=000000>
+						[0 0]<FONT predef=DLGFONT size=18 color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+					</COL_HEADER>
+					<STRINGS>
+						<STRING>Strain Gauge</STRING>
+						<STRING>Photoplethysmography</STRING>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=230 type="Listbox" name="ListboxMeasurementArea">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT name="Arial" style='B' size=18 color=100000C>Area</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT size=18 color=000000>
+						[1 0]<FONT predef=DLGFONT size=18 color=000000>
+						[0 0]<FONT predef=DLGFONT size=18 color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+					</COL_HEADER>
+					<STRINGS>
+						<STRING>Toe</STRING>
+						<STRING>Ankle</STRING>
+						<STRING>Above Knee</STRING>
+						<STRING>Below Knee</STRING>
+						<STRING>Heel</STRING>
+						<STRING>Front Foot</STRING>
+						<STRING>Finger</STRING>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="AdditionalInfoString">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT><FONT predef=DLGFONT color=100000C></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Additional Information</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="HeightAdjustmentInt">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Height from segment to heart (cm)</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<LABEL><STEXT>Right</STEXT></LABEL>
+			<LABEL><STEXT>Left</STEXT></LABEL>
+			<LABEL><STEXT>Dia</STEXT></LABEL>
+			<LABEL><STEXT>Sys</STEXT></LABEL>
+			<LABEL><STEXT>Right</STEXT></LABEL>
+			<LABEL><STEXT>Left</STEXT></LABEL>
+			<CONTROL ID=80 type="Numeric" name="Segment Number">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Segment Number</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="EditDataPath">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Custom Datapath</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>EditDataPath</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<LABEL><STEXT><FONT predef=DLGFONT color=100000C>Settings</STEXT></LABEL>
+			<CONTROL ID=79 type="Boolean" name="ReportPathBtn">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Change Report Path</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>ReportPathBtn</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+		</PAGE>
+		<PAGE>
+			<DESC></DESC>
+			<TIP></TIP>
+			<LABEL><STEXT><FONT name="Arial" style='B' size=13>Filter</STEXT></LABEL>
+			<GROUPER>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+							<CONTROL ID=207 type="Sub Panel" name="Data Acquisition">
+								<DESC></DESC>
+								<TIP></TIP>
+								<PARTS>
+									<PART ID=82 order=0 type="Caption"><LABEL><STEXT>Data Acquisition</STEXT></LABEL></PART>
+								</PARTS>
+							</CONTROL>
+						</PARTS></GROUPER>
+				</PARTS></GROUPER>
+			<CONTROL ID=79 type="Boolean" name="Calibration">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Calibrate</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Calibration</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="AcqTestBtn">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Test</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>AcqTestBtn</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<LABEL><STEXT><FONT name="Arial" style='B' size=13>Pressure</STEXT></LABEL>
+			<LABEL><STEXT><FONT name="Arial" style='B' size=13>Acquisition</STEXT></LABEL>
+			<GROUPER>
+				<PARTS>
+					<CONTROL ID=207 type="Sub Panel" name="Data Acq Sub Panel">
+						<DESC></DESC>
+						<TIP></TIP>
+						<PARTS>
+							<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT name="Arial" style='B' size=13>Data Acq Sub Panel</STEXT></LABEL></PART>
+						</PARTS>
+					</CONTROL>
+				</PARTS></GROUPER>
+			<CONTROL ID=100 type="Type Definition" name="AcqFilt">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=8010 order=0 type="Cursor Buttons">
+						<CONTROL ID=87 type="Enum" name="">
+							<DESC></DESC>
+							<TIP></TIP>
+							<PARTS>
+								<PART ID=12 order=0 type="Ring Text"><MLABEL><FONT predef=DLGFONT color=100000C><STRINGS></STRINGS></MLABEL></PART>
+								<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT name="Arial" style='' size=13></STEXT></LABEL></PART>
+							</PARTS>
+						</CONTROL>
+					</PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>AcqFilt</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+		</PAGE>
+		<PAGE>
+			<DESC></DESC>
+			<TIP></TIP>
+			<GROUPER>
+				<PARTS>
+					<CONTROL ID=207 type="Sub Panel" name="Sub Panel">
+						<DESC></DESC>
+						<TIP></TIP>
+						<PARTS>
+							<PART ID=82 order=0 type="Caption"><LABEL><STEXT>Sub Panel</STEXT></LABEL></PART>
+						</PARTS>
+					</CONTROL>
+				</PARTS></GROUPER>
+			<CONTROL ID=79 type="Boolean" name="GraphSelection">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Deactivate Tangents</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>GraphSelection</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="FilterControl">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=100003C><STRINGS><STRING>Activate Lowpass Filter</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>FilterControl</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=231 type="Tree" name="ProcessDataTreeMenu">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>ProcessDataTreeMenu</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+					</COL_HEADER>
+					<STRINGS>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=80 type="Numeric" name="AdjustedHeight">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Height Adjustment:</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=81 type="String" name="CMString">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=11 order=0 type="Text"><LABEL><STEXT><FONT predef=SYSFONT></STEXT></LABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>CMString</STEXT></LABEL></PART>
+				</PARTS>
+				<DEFAULT><SAME_AS_LABEL></DEFAULT>
+			</CONTROL>
+		</PAGE>
+		<PAGE>
+			<DESC></DESC>
+			<TIP></TIP>
+			<CONTROL ID=79 type="Boolean" name="GenerateReport">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Export</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>GenerateReport</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=231 type="Tree" name="TreeMenu">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>TreeMenu</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+					</ROW_HEADER>
+					<COL_HEADER>
+					</COL_HEADER>
+					<STRINGS>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=230 type="Multicolumn Listbox" name="Data Listbox">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<GROUPER>
+						<PARTS>
+						</PARTS></GROUPER>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Data Listbox</STEXT></LABEL></PART>
+				</PARTS>
+				<PRIV>
+					<CELL_FONTS>
+						[-2 -2]<FONT predef=DLGFONT color=000000>
+					</CELL_FONTS>
+					<ROW_HEADER>
+						<STRING>Measurement</STRING>
+						<STRING>Red</STRING>
+						<STRING>Blue</STRING>
+					</ROW_HEADER>
+					<COL_HEADER>
+						<STRING>Measurement</STRING>
+						<STRING>Blue</STRING>
+						<STRING>Red</STRING>
+					</COL_HEADER>
+					<STRINGS>
+					</STRINGS>
+				</PRIV>
+			</CONTROL>
+			<CONTROL ID=79 type="Boolean" name="Remove Measurement Button">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT color=1000006><STRINGS><STRING>Remove</STRING></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT color=100000C>Remove Measurement Button</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+			<CONTROL ID=87 type="Enum" name="ReportSelection">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+					<PART ID=12 order=0 type="Ring Text"><MLABEL><FONT predef=DLGFONT><STRINGS></STRINGS></MLABEL></PART>
+					<PART ID=82 order=0 type="Caption"><LABEL><STEXT>ReportSelection</STEXT></LABEL></PART>
+				</PARTS>
+			</CONTROL>
+		</PAGE>
+		<PAGE_CAP_FONT><FONT predef=DLGFONT color=000000></PAGE_CAP_FONT>
+		<PRIV><PAGE_CAPTIONS><STRING>Profile</STRING><STRING>Configuration</STRING><STRING>Acquisition</STRING><STRING>Data Processing</STRING><STRING>View Data</STRING></PAGE_CAPTIONS></PRIV>
+	</CONTROL>
+	<LABEL><STEXT><FONT name="Arial Black" style='' size=35 color=FAFAFA>DM2000 Digital Interface</STEXT></LABEL>
+	<CONTROL ID=79 type="Boolean" name="Exit">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+			<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT><STRINGS><STRING>EXIT</STRING></STRINGS></MLABEL></PART>
+			<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT>Exit</STEXT></LABEL></PART>
+		</PARTS>
+	</CONTROL>
+	<CONTROL ID=79 type="Boolean" name="Switch">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+			<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT><STRINGS><STRING>Start</STRING></STRINGS></MLABEL></PART>
+			<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=SYSFONT style='B'>Switch</STEXT></LABEL></PART>
+		</PARTS>
+	</CONTROL>
+	<CONTROL ID=79 type="Boolean" name="Stop acq">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+			<PART ID=22 order=0 type="Boolean Text"><MLABEL><FONT predef=DLGFONT><STRINGS><STRING>Stop</STRING></STRINGS></MLABEL></PART>
+			<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=DLGFONT>Stop acq</STEXT></LABEL></PART>
+		</PARTS>
+	</CONTROL>
+	<CONTROL ID=79 type="Boolean" name="Ready">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+			<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT name="Arial" style='B' size=14 color=FAFAFA>Data acquisition ready</STEXT></LABEL></PART>
+		</PARTS>
+	</CONTROL>
+	<CONTROL ID=81 type="String" name="PersonalInfoString2">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+			<PART ID=11 order=0 type="Text"><LABEL><STEXT><FONT predef=SYSFONT color=FAFAFA></STEXT></LABEL></PART>
+			<PART ID=82 order=0 type="Caption"><LABEL><STEXT><FONT predef=APPFONT color=FAFAFA>PersonalInfoString2</STEXT></LABEL></PART>
+		</PARTS>
+		<DEFAULT><SAME_AS_LABEL></DEFAULT>
+	</CONTROL>
+</CONTENT>
+</VI>
+
+

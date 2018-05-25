@@ -1,0 +1,240 @@
+MenuExit	Exit;EXIT	main.lvlib:Top Menu.vi
+MenuStartADC	Switch;Activate	main.lvlib:Top Menu.vi
+Stop Acq	Stop acq;Stop	main.lvlib:Top Menu.vi
+PersonalInfoString	PersonalInfoString2@@@	main.lvlib:Top Menu.vi
+Profile	Profile;Profile	main.lvlib:Top Menu.vi
+Menu Queue	Menu Queue	main.lvlib:Top Menu.vi
+Configuration	Configuration;Konfiguration	main.lvlib:Top Menu.vi
+Acquisition	Acquisition;Data Acquisition	main.lvlib:Top Menu.vi
+Data	Data;Data	main.lvlib:Top Menu.vi
+Journal	Journal;Journal	main.lvlib:Top Menu.vi
+Name	Name@@@	main.lvlib:Profile.vi
+Listbox Patient ID	Patient ID@@@Patient ID;	main.lvlib:Profile.vi
+Add Patient ID Btn	 Add CPR;Add Patient ID	main.lvlib:Profile.vi
+ListboxOperator	Operator@@@Operator;	main.lvlib:Profile.vi
+ListboxDoctor	Doctor@@@Doctor;	main.lvlib:Profile.vi
+HospitalName	Hospital@@@	main.lvlib:Profile.vi
+EditHospInfo	;Rediger	main.lvlib:Profile.vi
+HospitalAddress	Address@@@	main.lvlib:Profile.vi
+CommentStr	Comments@@@	main.lvlib:Profile.vi
+HospitalDepartment	Department@@@	main.lvlib:Profile.vi
+Search Patient ID	Search@@@	main.lvlib:Profile.vi
+Queue In	Queue In	main.lvlib:Profile.vi
+Query Worklist	Query Worklist;Query Worklist	main.lvlib:Profile.vi
+StopProfile	StopProfile;OK	main.lvlib:Profile.vi
+ListboxMeasurementMeth	Method@@@;Distal pressure;Skin perfusion;Flow;Cerebral pressure;	main.lvlib:Configuration.vi
+ListboxMeasurementTechnique	Teknik@@@;Strain Gauge;Photoplethysmograf;	main.lvlib:Configuration.vi
+ListboxMeasurementArea	Segment@@@;Tå;Ankel;Over Knæ;Under Knæ;Hæl;Forfod;Finger;	main.lvlib:Configuration.vi
+ListboxRightSegmentNr	Højre@@@;1;2;3;4;5;	main.lvlib:Configuration.vi
+ListboxLeftSegmentNr	Venstre@@@;1;2;3;4;5;	main.lvlib:Configuration.vi
+LeftArmPressureTable	Venstre@@@Systolisk;Diastolisk;	main.lvlib:Configuration.vi
+PalpationLeft	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;	main.lvlib:Configuration.vi
+RightArmPressureTable	Højre@@@Systolisk;Diastolisk;	main.lvlib:Configuration.vi
+PalpationRight	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;	main.lvlib:Configuration.vi
+TempOne	Temperatur	main.lvlib:Configuration.vi
+TempTwo	#2	main.lvlib:Configuration.vi
+HeightAdjustmentInt	Højdejustering	main.lvlib:Configuration.vi
+Puls	Puls	main.lvlib:Configuration.vi
+SaveArmPressureBtn	Gem;Gem	main.lvlib:Configuration.vi
+Configuration Queue	Configuration Queue	main.lvlib:Configuration.vi
+Stop	Stop;OK	main.lvlib:Configuration.vi
+ArmtrykString	Armtryk@@@	main.lvlib:Configuration.vi
+UndersøgelsesString	Undersøgelse@@@	main.lvlib:Configuration.vi
+SegmentNumberString	Nummer@@@	main.lvlib:Configuration.vi
+SegmentAcqString	SegmentAcqString@@@TEXT	main.lvlib:Acquisition.vi
+RingActGraph	Aktive grafer@@@Begge;Blå;Rød;	main.lvlib:Acquisition.vi
+Queue	Queue	main.lvlib:Acquisition.vi
+RegulationBtn	RegulationBtn;Reservoir Tryk	main.lvlib:Acquisition.vi
+PressuriseBtn	PressuriseBtn;Manchet Tryk	main.lvlib:Acquisition.vi
+EmptyReservoirBtn	EmptyReservoirBtn;Tøm Reservoir	main.lvlib:Acquisition.vi
+ActivateReservoirBtn	ActivateReservoirBtn;Aktiver Reservoir	main.lvlib:Acquisition.vi
+Acquisition Btn	Acquisition Btn;Start Måling	main.lvlib:Acquisition.vi
+OffsetCalibrationBtn	OffsetCalibrationBtn;Kalibrer	main.lvlib:Acquisition.vi
+Stop	Stop;OK	main.lvlib:Acquisition.vi
+Slide	Slide	main.lvlib:Acquisition.vi
+Tank	Tank	main.lvlib:Acquisition.vi
+SegmentCombo	SegmentCombo@@@	main.lvlib:Acquisition.vi
+DeflateBtn	DeflateBtn;Udluftning	main.lvlib:Acquisition.vi
+Upper Sub Panel	Upper Sub Panel	main.lvlib:Acquisition.vi
+Lower Sub Panel	Lower Sub Panel	main.lvlib:Acquisition.vi
+Tangent On/Off	Deactivate Tangents;Deactivate Tangents	main.lvlib:Data.vi
+FilterControl	Filter;Filter	main.lvlib:Data.vi
+ProcessDataTreeMenu	ProcessDataTreeMenu	main.lvlib:Data.vi
+AdjustedHeight	Height Adjustment	main.lvlib:Data.vi
+cmString	CMString@@@cm	main.lvlib:Data.vi
+Data Queue	Data Queue	main.lvlib:Data.vi
+StopBtn	StopBtn;OFF/ON	main.lvlib:Data.vi
+Sub Panel	Sub Panel	main.lvlib:Data.vi
+GenerateReport	GenerateReport;Export	main.lvlib:Journal.vi
+Data Menu	TreeMenu	main.lvlib:Journal.vi
+Data Listbox	Data Listbox@@@Measurement;Blue/right;Red/left;	main.lvlib:Journal.vi
+ReportSelection	Journal@@@Distal pressure;Skin perfusion;Distal pressure: Finger;	main.lvlib:Journal.vi
+Journal Queue	Journal Queue	main.lvlib:Journal.vi
+Stop	Stop;OK	main.lvlib:Journal.vi
+Send To PACS	Send To PACS;PACS	main.lvlib:Journal.vi
+categoryBox	CategoryBox@@@Kategori;Destinationer;Filter;Armtryk Beregning;Kodeord;Hospital Information;Generelle Indstillinger;	main.lvlib:Options.vi
+optionsOkBtn	OkBtn;OK	main.lvlib:Options.vi
+optionsCancelBtn	CancelBtn;Annuller	main.lvlib:Options.vi
+Sub Panel	Sub Panel	main.lvlib:Options.vi
+FolderPath	Data destination	main.lvlib:PathSettings.vi
+ReportFolder	Journal destination	main.lvlib:PathSettings.vi
+notifier	notifier	main.lvlib:PathSettings.vi
+Graf destination	Graf destination	main.lvlib:PathSettings.vi
+PresentPassword	Present password@@@	main.lvlib:SavePassSettings.vi
+NewPassword	New password@@@	main.lvlib:SavePassSettings.vi
+RetypePassword	Repeat@@@	main.lvlib:SavePassSettings.vi
+SaveBtn	SaveBtn;Save	main.lvlib:SavePassSettings.vi
+presentPassValidationStr	OkStr 2@@@	main.lvlib:SavePassSettings.vi
+newPassValidationStr	OkStr@@@	main.lvlib:SavePassSettings.vi
+notifier	notifier	main.lvlib:SavePassSettings.vi
+incompPassStr	incompPassStr@@@Kodeord ikke ens	main.lvlib:SavePassSettings.vi
+invalidPassStr	invalidPassStr@@@Kodeord ugyldigt	main.lvlib:SavePassSettings.vi
+HospitalStr	Hospital@@@	main.lvlib:HospitalInfo.vi
+AddressStr	Adresse@@@	main.lvlib:HospitalInfo.vi
+DepartmentStr	Afdeling@@@	main.lvlib:HospitalInfo.vi
+Notifier	Notifier	main.lvlib:HospitalInfo.vi
+notifier	notifier	main.lvlib:GeneralSettings.vi
+hyphenationDialogBox	Hyphenation;Hyphenation in Patient ID(only Danish)	main.lvlib:GeneralSettings.vi
+generalSettingsString	generalSettingsString@@@	main.lvlib:GeneralSettings.vi
+LanguageSelectionRing	Sprog@@@Dansk;Engelsk;Fransk;	main.lvlib:GeneralSettings.vi
+notifier	notifier	main.lvlib:FilterSettings.vi
+FilterRing	Filter@@@Hanning;1 Hz Butterworth;Moving Average 6;	main.lvlib:FilterSettings.vi
+FilterSettingsString	String@@@	main.lvlib:FilterSettings.vi
+notifier	notifier	main.lvlib:ArmPressureCalcMethodSettings.vi
+Calculation Type	Choose method for calculation of arm pressure@@@Average;Maximum;Dynamic Average;	main.lvlib:ArmPressureCalcMethodSettings.vi
+armPressureDescriptionString	Description@@@Beregner det gennemsnitlige tryk ud fra alle de indtastede værdier for hver kolonne. 	main.lvlib:ArmPressureCalcMethodSettings.vi
+armPressCalcDescriptions	armPressCalcDescriptions@@@Beregner det gennemsnitlige tryk ud fra alle de indtastede værdier for hver kolonne. ;Beregner det gennemsnitlige tryk for hver kolonne. Som indeks bruges det højeste gennemsnit af højre eller venstre. ;Forkaster tryk som er mere end én standard afvigelse under det gennemsnitlige tryk. Beregner gennemsnitligt tryk for de resterende. ;	main.lvlib:ArmPressureCalcMethodSettings.vi
+armPressCalcDescriptions&description1	 @@@Forkaster tryk som er mere end én standard afvigelse under det gennemsnitlige tryk. Beregner gennemsnitligt tryk for de resterende. 	main.lvlib:ArmPressureCalcMethodSettings.vi
+Worklist	Worklist@@@PatientsName;PatientId;AccessionNumber;ReferringPhysiciansName;RequestingPhysician;OperatorsName;RequestedProcedureDescription;RequestedProcedureId;StudyInstanceUid;StudyId;SeriesInstanceUid;PatientsBirthDate;Modality;ScheduledProcedureStepDescription;ScheduledProcedureStepId;ScheduledProcedureStepStartDate;ScheduledProcedureStepStartTime;ScheduledStationAeTitle;ScheduledProcedureStepStatus;ScheduledProcedureStepLocation;	main.lvlib:CCMWLQuery.vi
+queryWorklist	queryWorklist;Query	main.lvlib:CCMWLQuery.vi
+Exit	Exit;Close	main.lvlib:CCMWLQuery.vi
+VerificationSCU	VerificationSCU;OFF	main.lvlib:CCMWLQuery.vi
+SelectPatient	SelectPatient;Select	main.lvlib:CCMWLQuery.vi
+subarray	subarray@@@;	main.lvlib:CCMWLQuery.vi
+subarray& 	 @@@	main.lvlib:CCMWLQuery.vi
+error in (no error)	error in (no error)	main.lvlib:CCMWLQuery.vi
+error in (no error)&status	status;	main.lvlib:CCMWLQuery.vi
+error in (no error)&code	code	main.lvlib:CCMWLQuery.vi
+error in (no error)&source	source@@@	main.lvlib:CCMWLQuery.vi
+error out	error out	main.lvlib:CCMWLQuery.vi
+error out&status	status;	main.lvlib:CCMWLQuery.vi
+error out&code	code	main.lvlib:CCMWLQuery.vi
+error out&source	source@@@	main.lvlib:CCMWLQuery.vi
+TimeStart	Start	main.lvlib:CCMWLQuery.vi
+TimeEnd	End	main.lvlib:CCMWLQuery.vi
+Cancel?	Cancel?;OFF	main.lvlib:CCMWLQuery.vi
+dicomValues Multicolumn Listbox	Multicolumn Listbox@@@	main.lvlib:ShowDicomValues.vi
+error in (no error)	error in (no error)	main.lvlib:ShowDicomValues.vi
+error in (no error)&status	status;	main.lvlib:ShowDicomValues.vi
+error in (no error)&code	code	main.lvlib:ShowDicomValues.vi
+error in (no error)&source	source@@@	main.lvlib:ShowDicomValues.vi
+error out	error out	main.lvlib:ShowDicomValues.vi
+error out&status	status;	main.lvlib:ShowDicomValues.vi
+error out&code	code	main.lvlib:ShowDicomValues.vi
+error out&source	source@@@	main.lvlib:ShowDicomValues.vi
+items	items@@@;	main.lvlib:ShowDicomValues.vi
+items& 	 @@@	main.lvlib:ShowDicomValues.vi
+Row Header	Row Header@@@;	main.lvlib:ShowDicomValues.vi
+Row Header& 	 @@@	main.lvlib:ShowDicomValues.vi
+Table	Table@@@	main.lvlib:EditDicomTags.vi
+DicomEditSaveBtn	DicomEditSaveBtn;Save	main.lvlib:EditDicomTags.vi
+TableOut	TableOut@@@	main.lvlib:EditDicomTags.vi
+RowNames	RowNames@@@;	main.lvlib:EditDicomTags.vi
+RowNames&String	String@@@	main.lvlib:EditDicomTags.vi
+DicomEditCancelBtn	DicomEditCancelBtn;Cancel	main.lvlib:EditDicomTags.vi
+Cancel?	Cancel?;OFF	main.lvlib:EditDicomTags.vi
+Up Button	Up Button;	main.lvlib:EditDicomTags.vi
+Down Button	Down Button;	main.lvlib:EditDicomTags.vi
+Client AE Title	Client AE Title@@@	main.lvlib:DICOMServerSettings.vi
+Remote AE Title	Remote AE Title@@@	main.lvlib:DICOMServerSettings.vi
+Host	Host@@@	main.lvlib:DICOMServerSettings.vi
+Port	Port	main.lvlib:DICOMServerSettings.vi
+Client AE Title PACS	Client AE Title@@@	main.lvlib:DICOMServerSettings.vi
+Remote AE Title PACS	Remote AE Title@@@	main.lvlib:DICOMServerSettings.vi
+Host PACS	Host@@@	main.lvlib:DICOMServerSettings.vi
+Port PACS	Port	main.lvlib:DICOMServerSettings.vi
+Save	Save;Save	main.lvlib:DICOMServerSettings.vi
+Cancel	Cancel;Cancel	main.lvlib:DICOMServerSettings.vi
+CheckVersionsBtn	CheckVersionsBtn;Søg efter opdatering	main.lvlib:Update.vi
+VersionInformationStr	VersionInformationStr@@@	main.lvlib:Update.vi
+UpdateProgram	UpdateProgram;Opdater	main.lvlib:Update.vi
+UpdatePath	UpdatePath@@@	main.lvlib:Update.vi
+Update	Update;OFF/ON	main.lvlib:Update.vi
+String	String@@@	main.lvlib:Update.vi
+error in (no error)	error in (no error)	main.lvlib:Update.vi
+error in (no error)&status	status;	main.lvlib:Update.vi
+error in (no error)&code	code	main.lvlib:Update.vi
+error in (no error)&source	source@@@	main.lvlib:Update.vi
+error out	error out	main.lvlib:Update.vi
+error out&status	status;	main.lvlib:Update.vi
+error out&code	code	main.lvlib:Update.vi
+error out&source	source@@@	main.lvlib:Update.vi
+Path to start the search	Path to start the search	main.lvlib:Add Item.vi
+Folders Found	Folders Found@@@;	main.lvlib:Add Item.vi
+Folders Found&appended path	appended path	main.lvlib:Add Item.vi
+Parent Tag	Parent Tag@@@	main.lvlib:Add Item.vi
+Tree In	Tree In	main.lvlib:Add Item.vi
+Path	Path	main.lvlib:Add Item.vi
+error out	error out	main.lvlib:Add Item.vi
+error out&status	status;	main.lvlib:Add Item.vi
+error out&code	code	main.lvlib:Add Item.vi
+error out&source	source@@@	main.lvlib:Add Item.vi
+error in	error in	main.lvlib:Add Item.vi
+error in&status	status;	main.lvlib:Add Item.vi
+error in&code	code	main.lvlib:Add Item.vi
+error in&source	source@@@	main.lvlib:Add Item.vi
+Tree Out	Tree Out	main.lvlib:Add Item.vi
+CalibrationStopBtn	CalibrationStopBtn;Calibrate	main.lvlib:AutomaticCalibration.vi
+CalibrationCancelBtn	CalibrationCancelBtn;Cancel	main.lvlib:AutomaticCalibration.vi
+Path	Path	main.lvlib:AutomaticCalibration.vi
+error in (no error)	error in (no error)	main.lvlib:AutomaticCalibration.vi
+error in (no error)&status	status;	main.lvlib:AutomaticCalibration.vi
+error in (no error)&code	code	main.lvlib:AutomaticCalibration.vi
+error in (no error)&source	source@@@	main.lvlib:AutomaticCalibration.vi
+error out	error out	main.lvlib:AutomaticCalibration.vi
+error out&status	status;	main.lvlib:AutomaticCalibration.vi
+error out&code	code	main.lvlib:AutomaticCalibration.vi
+error out&source	source@@@	main.lvlib:AutomaticCalibration.vi
+Path Out	Path Out	main.lvlib:AutomaticCalibration.vi
+System XY Graph	System XY Graph	main.lvlib:AutomaticCalibration.vi
+Slide	Slide	main.lvlib:AutomaticCalibration.vi
+Linear Fit	Linear Fit	main.lvlib:AutomaticCalibration.vi
+ResetFrontImage	ResetFrontImage;OFF	main.lvlib:ProcessData(SubVI).vi
+System Stop Button	System Stop Button;Stop	main.lvlib:ProcessData(SubVI).vi
+GraphSelection(Red:F)	GraphSelection(Red:F);OFF	main.lvlib:ProcessData(SubVI).vi
+Blue Pressure	Blue Pressure	main.lvlib:ProcessData(SubVI).vi
+Red	Red	main.lvlib:ProcessData(SubVI).vi
+Blue	Blue	main.lvlib:ProcessData(SubVI).vi
+Cursor Mode	Cursor Mode;OFF	main.lvlib:ProcessData(SubVI).vi
+ZoomRedBtn	ZoomRedBtn;Zoom	main.lvlib:ProcessData(SubVI).vi
+ResetRedBtn	ResetRedBtn;Reset	main.lvlib:ProcessData(SubVI).vi
+ZoomBlueBtn	ZoomBlueBtn;Zoom	main.lvlib:ProcessData(SubVI).vi
+ResetBlueBtn	ResetBlueBtn;Reset	main.lvlib:ProcessData(SubVI).vi
+Red Pressure	Red Pressure	main.lvlib:ProcessData(SubVI).vi
+Armpressure	Armpressure	main.lvlib:ProcessData(SubVI).vi
+Red index	Red index	main.lvlib:ProcessData(SubVI).vi
+Blue index	Blue index	main.lvlib:ProcessData(SubVI).vi
+Queue	Queue	main.lvlib:ProcessData(SubVI).vi
+LoginBtn	LoginBtn;Login	main.lvlib:login_popup.vi
+LoginCancelBtn	LoginCancelBtn;Cancel	main.lvlib:login_popup.vi
+Password	Password@@@	main.lvlib:login_popup.vi
+Error In	Error In	main.lvlib:login_popup.vi
+Error In&status	status;OFF	main.lvlib:login_popup.vi
+Error In&code	code	main.lvlib:login_popup.vi
+Error In&source	source@@@	main.lvlib:login_popup.vi
+Error Out	Error Out	main.lvlib:login_popup.vi
+Error Out&status	status;OFF	main.lvlib:login_popup.vi
+Error Out&code	code	main.lvlib:login_popup.vi
+Error Out&source	source@@@	main.lvlib:login_popup.vi
+AddName_Name	Name@@@	main.lvlib:AddName.vi
+AddName_SaveBtn	SaveBtn;Save	main.lvlib:AddName.vi
+AddName_CancelBtn	CancelBtn;Cancel	main.lvlib:AddName.vi
+Cancel Indicator	Cancel Indicator;Annuller	main.lvlib:AddName.vi
+NameString	NameString@@@	main.lvlib:AddName.vi
+PatientID_CPR Number Str	Patient ID@@@	main.lvlib:TypeCPRNum(SubVI).vi
+PatientID_OkBtn	OkBtn;Save	main.lvlib:TypeCPRNum(SubVI).vi
+PatientID_CancelBtn1	CancelBtn1;Cancel	main.lvlib:TypeCPRNum(SubVI).vi
+PatientID_ClearBtn	ClearBtn;Delete	main.lvlib:TypeCPRNum(SubVI).vi
+warning (transparent)	warning (transparent)@@@Der skal være 10 tal i et CPR nr	main.lvlib:TypeCPRNum(SubVI).vi
+CprOut	CprOut@@@	main.lvlib:TypeCPRNum(SubVI).vi
+Boolean	Boolean;OFF	main.lvlib:TypeCPRNum(SubVI).vi

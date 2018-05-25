@@ -1,0 +1,118 @@
+23:47:26Initialize: PageMenu
+23:47:26Initialize: Profile
+23:47:26Initialize: Configuration
+23:47:26Initialize: Acquisition
+23:47:26Initialize: Data
+23:47:26Initialize: Journal
+23:47:26Send Caller Queue to Journal
+23:47:26
+23:47:26Continue Initializing
+23:47:26Send Caller Queue to Acquisition
+23:47:26Register User Parameters
+23:47:26Initialize
+23:47:28Change Language
+23:47:28Initialize: Dicom
+23:47:28Load Patient Register
+23:47:28Cache User Parameters
+23:47:28Load Hospital Info
+23:47:28Subpanel: Load Menu
+23:47:28Subpanel: Load Profile
+23:47:28Reset Graphs
+23:47:28Set SubVi Color
+23:47:28Silent DAQ Initialization
+23:48:58Update Display
+23:48:58Set Acquisition Mode
+23:48:58Set Height
+23:48:58ResetToDefault
+23:48:58End Initializing
+23:48:58
+23:48:58
+23:48:58
+23:48:58
+23:48:58
+23:48:59
+23:48:59
+23:48:59
+23:48:59
+23:48:59
+23:49:00
+23:49:00
+23:49:00
+23:49:00
+23:49:00
+23:49:01
+23:49:01ResetToDefault
+23:49:01LoadNameCpr
+23:49:01Cache User Parameters
+23:49:01SelectCpr
+23:49:01DCM: Load DICOM Info
+23:49:01DCM: Update Variables
+23:49:01Load Armpressure
+23:49:01
+23:49:01
+23:49:01ResetToDefault
+23:49:01LoadNameCpr
+23:49:01Cache User Parameters
+23:49:01SelectCpr
+23:49:01DCM: Load DICOM Info
+23:49:01DCM: Update Variables
+23:49:01Load Armpressure
+23:49:01
+23:49:01
+23:49:01ResetToDefault
+23:49:02LoadNameCpr
+23:49:02Cache User Parameters
+23:49:02SelectCpr
+23:49:02DCM: Load DICOM Info
+23:49:02DCM: Update Variables
+23:49:02Load Armpressure
+23:49:02
+23:49:02
+23:49:02
+23:49:02
+23:49:02
+23:49:02Cache User Parameters
+23:49:03Subpanel: Load Profile
+23:49:03
+23:49:03
+23:49:03Cache User Parameters
+23:49:03Update Display
+23:49:03Subpanel: Load Acquisition
+23:49:03Send Segment to Acquisition
+23:49:03
+23:49:03
+23:49:03Cache User Parameters
+23:49:03Subpanel: Load Data
+23:49:03
+23:49:03
+23:49:03Cache User Parameters
+23:49:03Subpanel: Load Data
+23:49:03
+23:49:03
+23:49:04Cache User Parameters
+23:49:04Subpanel: Load Journal
+23:49:04
+23:49:04
+23:49:04Cache User Parameters
+23:49:04Subpanel: Load Data
+23:49:04
+23:49:04
+23:49:04Cache User Parameters
+23:49:04Update Display
+23:49:04Subpanel: Load Acquisition
+23:49:04Send Segment to Acquisition
+23:49:04
+23:49:04
+23:49:04Cache User Parameters
+23:49:04Subpanel: Load Configuration
+23:49:04
+23:49:04
+23:49:05Cache User Parameters
+23:49:05Subpanel: Load Profile
+23:49:05
+23:49:05
+23:49:05
+23:49:05
+23:49:05
+23:49:06Cache User Parameters
+23:49:06Exit

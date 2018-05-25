@@ -1,0 +1,1 @@
+storescp.exe -v -fe .dcm --prefer-lossless 1235

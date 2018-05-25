@@ -1,0 +1,1 @@
+{"profile":{"id":"EB2FB_E2FCCE42514E63718EF_B_7_EE","name":"Doe, John","operator":"Simon","doctor":"Simon","comment":""},"hospital":{"name":"Odense Universitetshospital","department":"Q","address":"Hellerupvej 75\n2900 Hellerup"},"palpation":{"right":"","left":""},"Armpressure Right":[],"Armpressure Left":[]}

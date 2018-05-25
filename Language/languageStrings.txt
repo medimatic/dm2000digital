@@ -1,0 +1,127 @@
+Sprog	Dansk	Engelsk	Fransk
+Acquisition	Acquisition;Dataopsamling	Acquisition;Data Acquisition	Acquisition;Acquisition
+Acquisition Btn	Acquisition Btn;Start Måling	Acquisition Btn;Start Measurement	Acquisition Btn; Démarrer le mesure
+ActivateReservoirBtn	ActivateReservoirBtn;Aktiver Reservoir	ActivateReservoirBtn;Activate Reservoir	ActivateReservoirBtn;Activer Reservoir
+ActivityBox	Arbejdstest	Work test	Test d'effort
+Add Patient ID Btn	Add CPR;Tilføj CPR	Add CPR;Add Patient ID	Add CPR;Ajouter NSS
+AddName_CancelBtn	CancelBtn;Annuller	CancelBtn;Cancel	CancelBtn;Annuler
+AddName_Name	Navn@@@	Name@@@	Nom@@@
+AddName_SaveBtn	SaveBtn;Gem	SaveBtn;Save	SaveBtn;Sauvegarder
+AddName_TitleString	Tilføj Ny@@@Tilføj Ny	Add New@@@Add New	Add New@@@Ajouter nouveau
+AddressStr	Adresse@@@	Address@@@	Adresse@@@
+AdjustedHeight	Højdejustering	Height Adjustment	Réglage de la hauteur
+Armpressure	Armtryk	Arm Pressure	Tension artérielle
+armPressureDescriptionString	Description@@@	Description@@@	Description@@@
+ArmtrykString	Armtryk@@@	Arm Pressure@@@	Tension artérielle@@@
+Calculation Type	Vælg metode til udregning af amtryk@@@Gennemsnitlig tryk;Maksimalt tryk;Dynamisk middel;	Choose method for calculation of arm pressure@@@Average;Maximum;Dynamic Average;	Choisir la méthode de calcul de la pression du bras@@@Moyenne;maximale;moyenne dynamique;
+CalibrationCancelBtn	CalibrationCancelBtn;Annuller	CalibrationCancelBtn;Cancel	CalibrationCancelBtn;Annuler
+CalibrationStopBtn	CalibrationStopBtn;Kalibrér	CalibrationStopBtn;Calibrate	CalibrationStopBtn;Étalonner
+Cancel	Cancel;Annuller	Cancel;Cancel	Cancel;Annuler
+categoryBox	CategoryBox@@@Kategori;Destinationer;Filter;Armtryk Beregning;Kodeord;Hospital Information;Generelle Indstillinger;Bluetooth;	CategoryBox@@@Category;Destinations;Filter;Arm Pressure;Password;Hospital Information;General Settings;Bluetooth;	CategoryBox@@@Catégorie;Destinations;Filtre;Tension artériel;Mot de passe;Information hospitalier;Paramètres généraux;Bluetooth;
+Client AE Title	Client AE Title@@@	Client AE Title@@@	Client AE title@@@
+Client AE Title PACS	Client AE Title@@@	Client AE Title@@@	Client AE title@@@
+cmString	CMString@@@cm	CMString@@@cm	CMString@@@cm
+CommentStr	Kommentar@@@	Comments@@@	Remarquer@@@
+Configuration	Configuration;Konfiguration	Configuration;Configuration	Configuration;Configuration
+Data	Data;Data	Data;Data	Données;Données
+Data Listbox	Data Listbox@@@Måling;Blå/højre;Rød/venstre;	Data Listbox@@@Measurement;Blue/right;Red/left;	Data Listbox@@@La mesure;Bleu / droite; Rouge / gauche;
+DeflateBtn	DeflateBtn;Udluftning	DeflateBtn;Deflate	DeflateBtn;Dégonfler
+DepartmentStr	Afdeling@@@	Department@@@	Service@@@
+DicomEditCancelBtn	DicomEditCancelBtn;Cancel	DicomEditCancelBtn;Cancel	DicomEditCancelBtn;Annuler
+DicomEditSaveBtn	DicomEditSaveBtn;Save	DicomEditSaveBtn;Save	DicomEditSaveBtn;Sauvegarder
+EmptyReservoirBtn	EmptyReservoirBtn;Tøm Reservoir	EmptyReservoirBtn;Empty Reservoir	EmptyReservoirBtn;Réservoir vide
+Exit	Exit;Close	Exit;Close	Sortie;Fermer
+FilterControl	Filter;Filter	Filter;Filter	Filtre;Filtre
+FilterRing	Filter@@@Hanning;1 Hz Butterworth;Moving Average 6;	Filter@@@Hanning;1 Hz Butterworth;Moving Average 6;	Filtre@@@Hanning;1 Hz Butterworth;Moyenne mobile 6;
+FilterSettingsString	String@@@Denne indstilling ændrer det filter som signalerne filtreres af inden de vises.	String@@@This setting changes the filter that is applied to the recorded data	String@@@Ce réglage change le filtre qui est appliqué sur les données enregistrées 
+FolderPath	Data destination	Data destination	Destination des données
+generalSettingsString	generalSettingsString@@@Generelt	generalSettingsString@@@General	generalSettingsString@@@Générale
+GenerateReport	GenerateReport;Eksporter	GenerateReport;Export	GenerateReport;Exporter
+Graf destination	Graf destination	Graph destination	Destination de la graph
+HeightAdjustmentInt	Højdejustering	Height Adjustment	Réglage de la hauteur
+HospitalAddress	Adresse@@@	Address@@@	Adresse@@@
+HospitalDepartment	Afdeling@@@	Department@@@	Service@@@
+HospitalName	Hospital@@@	Hospital@@@	Hôpital@@@
+HospitalStr	Hospital@@@	Hospital@@@	Hôpital@@@
+Host	Host@@@	Host@@@	Hôte@@@
+Host PACS	Host@@@	Host@@@	Hôte@@@
+hyphenationDialogBox	Hyphenation;Anvend bindestreg i CPR nummer	Hyphenation;Hyphenation in Patient ID(only Danish)	Hyphenation;Utilise hyphenation dans le NSS
+Journal	Journal;Journal	Journal;Journal	Journal;Journal
+LanguageSelectionRing	Sprog@@@Dansk;English;Français;	Language@@@Dansk;English;Français;	Langue@@@Dansk;English;Français;
+LeftArmPressureTable	Venstre@@@Systolisk;Diastolisk;	Left@@@Systolic;Diastolic;	Gauche@@@Systolique;Diastolique;
+Listbox Patient ID	CPR Number@@@CPR Nummer;	Patient ID@@@Patient ID;	Patient ID@@@NSS;
+ListboxDoctor	Doctor@@@Læge;	Doctor@@@Doctor;	Docteur@@@Docteur;
+ListboxLeftSegmentNr	Venstre@@@;1;2;3;4;5;	Left@@@;1;2;3;4;5;	Gauche@@@;1;2;3;4;5;
+ListboxMeasurementArea	Segment@@@;Tå;Ankel;Over Knæ-Femur;Under Knæ-Crus;Hæl;Forfod;Finger;	Segment@@@;Toe;Ankle;Above Knee;Below Knee;Heel;Front foot;Finger;	Segment@@@;Orteil;Cheville;Dessus le Genou;Sous le Genou;Talon;Avant pied;Doigt;
+ListboxMeasurementMeth	Metode@@@;Distal Tryk;Hudperfusionstryk;Flow;Cerebral blodtryk;	Method@@@;Distal pressure;Skin perfusion;Flow;Cerebral pressure;	Méthode@@@;Pression distale;Perfusion cutanée;Débit;Pression Sanguine Cérébrale;
+ListboxMeasurementTechnique	Teknik@@@;Strain Gauge;Photoplethysmograf;	Technic@@@;Strain Gauge;Photoplethysmograph;	Technic@@@;Jauge de contrainte;PPGO;
+ListboxOperator	Operator@@@Operatør;	Operator@@@Operator;	Opérateur@@@Manipulateur;
+ListboxRightSegmentNr	Højre@@@;1;2;3;4;5;	Right@@@;1;2;3;4;5;	Droit@@@;1;2;3;4;5;
+LoginBtn	LoginBtn;Login	LoginBtn;Login	LoginBtn;Login
+LoginCancelBtn	LoginCancelBtn;Annuller	LoginCancelBtn;Cancel	LoginCancelBtn;Annuler
+MenuExit	Exit;EXIT	Exit;EXIT	Sortie;EXIT
+MenuStartADC	Switch;Aktiver	Switch;Activate	Switch;Activate
+Name	Navn@@@	Name@@@	Nom@@@
+newPassValidationStr	OkStr@@@Kodeord er ens	OkStr@@@Passwords match	OkStr@@@Mot de pas identiques
+NewPassword	Nyt Kodeord@@@	New password@@@	Nouveau mot de passe@@@
+incompPassStr	incompPassStr@@@Kodeord ikke ens	incompPassStr@@@Inputs are not equal	incompPassStr@@@Mot de pas ne pas identiques
+invalidPassStr	invalidPassStr@@@Kodeord ugyldigt	invalidPassStr@@@Invalid password	invalidPassStr@@@Mot de pass invalide
+OffsetCalibrationBtn	OffsetCalibrationBtn;Kalibrer	OffsetCalibrationBtn;Calibrate	OffsetCalibrationBtn;Étalonner
+optionsCancelBtn	CancelBtn;Annuller	CancelBtn;Cancel	CancelBtn;Annuler
+optionsOkBtn	OkBtn;OK	OkBtn;OK	OkBtn;OK
+PalpationLeft	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;
+PalpationRight	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;	Palpation@@@None;A. dors. pedis;A. tibialis post;A. poplieta;A. femoralis ;
+Password	Password@@@	Password@@@	Mot de passe@@@
+Port	Port	Port	Port
+Port PACS	Port	Port	Port
+presentPassValidationStr	OkStr 2@@@Godkendt	OkStr 2@@@Approved	OkStr 2@@@Approuvé
+PresentPassword	Nuværende Kodeord@@@	Present password@@@	Ancien mot de passe@@@
+PressuriseBtn	PressuriseBtn;Manchet Tryk	PressuriseBtn;Manchet pressure	PressuriseBtn;
+Profile	Profile;Profil	Profile;Profile	Profil;Profil
+Puls	Puls	Heart Rate	Pouls
+Query Worklist	Query Worklist;Query Worklist	Query Worklist;Query Worklist	Query Worklist;Query Worklist
+queryWorklist	queryWorklist;Query	queryWorklist;Query	queryWorklist;Query
+RegulationBtn	RegulationBtn;Reservoir Tryk	RegulationBtn;Reservoir pressure	RegulationBtn;Pression du réservoir
+Remote AE Title	Remote AE Title@@@	Remote AE Title@@@	Distance AE Title@@@
+Remote AE Title PACS	Remote AE Title@@@	Remote AE Title@@@	Distance AE Title@@@
+ReportFolder	Journal destination	Journal destination	Destination Rapport
+ReportSelection	Journal@@@Distal Tryk;Hudperfusionstryk;Distal Tryk: Finger;Arbejdstest; Arbejdstest: Hudperfusion; Kulde provokation;	Journal@@@Distal pressure;Skin perfusion;Distal pressure: Finger;Work test;	Rapport@@@Pression distale;Perfusion cutanée;Pression distale: Doigt;Test d'effort;
+RetypePassword	Gentag@@@	Repeat@@@	Répéter@@@
+RightArmPressureTable	Højre@@@Systolisk;Diastolisk;	Right@@@Systolic;Diastolic;	Droit@@@Systolique;Diastolique;
+RingActGraph	Aktive grafer@@@Begge;Blå;Rød;	Active graphs@@@Both;Blue;Red;	Activer les Graphiques@@@Deux;Bleu;Rouge;
+Save	Save;Save	Save;Save	Sauvegarder;Sauvegarder
+SaveArmPressureBtn	Gem;Gem	Save;Save	Sauvegarder;Sauvegarder
+SaveBtn	SaveBtn;Gem	SaveBtn;Save	SaveBtn;Sauvegarder
+Search Patient ID	Søg@@@	Search@@@	Rechercher@@@
+SegmentNumberString	Nummer@@@	Number@@@	Numero@@@
+SelectPatient	SelectPatient;Vælg	SelectPatient;Select	SelectPatient;Select
+Send To PACS	Send To PACS;PACS	Send To PACS;PACS	Send To PACS;PACS
+Stop Acq	Stop acq;Stop	Stop acq;Stop	Stop acq;Stop
+Tangent On/Off	Deactivate Tangents;Deaktiver Tangenter	Deactivate Tangents;Deactivate Tangents	Désactiver tangentes;Désactiver Tangentes
+TempOne	Temperatur	Temperature	Température
+TimeEnd	End	End	Fin
+TimeStart	Start	Start	Démarrer
+UndersøgelsesString	Undersøgelse@@@	Examination@@@	Examinassions@@@
+UpdateProgram	UpdateProgram;Opdater	UpdateProgram;Update	UpdateProgram;
+ZoomBlueBtn	ZoomBlueBtn;Zoom	ZoomBlueBtn;Zoom	ZoomBlueBtn;Zoom
+ZoomRedBtn	ZoomRedBtn;Zoom	ZoomRedBtn;Zoom	ZoomRedBtn;Zoom
+PatientID_CPR Number Str	CPR Nummer@@@	Patient ID@@@	NSS@@@
+PatientID_OkBtn	OkBtn;Gem	OkBtn;Save	OkBtn;Sauvegarder
+PatientID_CancelBtn1	CancelBtn1;Annuller	CancelBtn1;Cancel	CancelBtn1;Annuler
+PatientID_ClearBtn	ClearBtn;Slet	ClearBtn;Delete	ClearBtn;Effacer
+PatientID_TitleString	Nyt CPR Nummer@@@Nyt CPR Nummer	New Patient ID@@@New Patient ID	New Patient ID@@@Nouvelle NSS
+armPressCalcDescriptions	armPressCalcDescriptions@@@Beregner det gennemsnitlige tryk ud fra alle de indtastede værdier for hver kolonne.;Beregner det gennemsnitlige tryk for hver kolonne. Som indeks bruges det højeste gennemsnit af højre eller venstre.;Forkaster tryk som er mere end én standard afvigelse under det gennemsnitlige tryk. Beregner gennemsnitligt tryk for de resterende;	armPressCalcDescriptions@@@Calculates the average pressure for each column.;Calculates the average pressure for each column. As index is the highest average of either left or right used.;Rejects pressures more than one standard deviation under the average pressure. Calculates the average pressure of the remaining.;	armPressCalcDescriptions@@@Calcule la pression moyenne pour chaque colonne;. Calcule la pression moyenne pour chaque colonne. Comme l'indice est la moyenne la plus élevée de gauche ou à droite utilisé;. Rejette les pressions de plus d'un deviation standard sous la pression moyenne. Calcule la pression moyenne pour le reste.;
+Update_NewVersionStr	 @@@Der er en ny opdatering til version: 	 @@@There is a update to version: 	 @@@Il ya une version mise à jour:
+Update_NetworkErrorStr	 @@@Netværksfejl. Bekræft forbindelsen	 @@@Network error. No connection	 @@@Erreur de réseau. Pas de connexion
+Update_NewestVersionStr	 @@@Programmet er den nyeste version	 @@@The program is up to date	 @@@Le programme est à jour
+Update_LocateError	 @@@Fejl. Kunne ikke finde ny version.	 @@@Error. Could not find the update	 @@@Erreur. Impossible de trouver la mise à jour
+Update_CurrentVerStr	 @@@Din nuværende version er: 	 @@@The current version is: 	 @@@La version actuelle est :
+Update_WaitMsgStr	 @@@Vent venligst mens opdateringen downloades...	 @@@Please wait while the update is downloaded…	 @@@Patienter pendant la mise à jour est téléchargée ...
+Update_SearchStr	 @@@Søg efter opdatering	 @@@Check for update	 @@@Vérifier pour le mis à jour
+Update_CancelBtn	 ;Annuller	 ;Cancel	 ;Annuler
+UpdateProgram_btn	 ;Opdater	 ;Update	 ;Mis à jour
+Update_CheckVersionsBtn	 ;Søg efter opdatering	 ;Check for update	 ;Cherche pour mis à jour
+Update_TitleStr	 @@@Opdater program	 @@@Update program	 @@@Programme Mise à jour
+JournalPositionLabel	a@@@Journal position i Excel	a@@@Journal position in Excel	a@@@Journal poste dans Excel
+CellStr1	Venstre/Øverst	Left/Upper	Gauche/Haut
+CellStr2	Højre/Nederst	Right/Lower	Droite/Bas

@@ -1,0 +1,1 @@
+{"profile":{"id":"","name":"","operator":"","doctor":"","comment":""},"hospital":{"name":"","department":"","address":""},"palpation":{"right":"","left":""},"Armpressure Right":[{"sys":121,"dia":78,"puls":52,"date":"2015-10-23","time":"11:12","code":"80","serial":"5131100482","temp":0,"activity":"False"}],"Armpressure Left":[]}

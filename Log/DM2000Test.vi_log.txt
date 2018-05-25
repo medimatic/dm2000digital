@@ -1,0 +1,320 @@
+Initialize: PageMenu
+Initialize: Profile
+Initialize: Configuration
+Initialize: Acquisition
+Initialize: Data
+Initialize: Journal
+Send Caller Queue to Journal
+Continue Initializing
+Send Caller Queue to Acquisition
+Register User Parameters
+ResetToDefault
+Initialize
+Initialize: Dicom
+Cache User Parameters
+Load Hospital Info
+Subpanel: Load Menu
+Subpanel: Load Profile
+Reset Graphs
+Set SubVi Color
+Silent DAQ Initialization
+Update Display
+Set Acquisition Mode
+Set Height
+End Initializing
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+RemoveCpr
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+MWL: QueryWorklist
+MWL: PatientID
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+MWL: Update Data
+SelectCpr
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+DCM: Show Values
+DCM: Edit Values
+DCM: Show Values
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+DCM: Show Values
+DCM: Edit Values
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+MWL: QueryWorklist
+MWL: PatientID
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+MWL: Update Data
+SelectCpr
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+DCM: Show Values
+DCM: Edit Values
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+DCM: Show Values
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+Subpanel: Load Journal
+Cache User Parameters
+Subpanel: Load Profile
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+Update Display
+Subpanel: Load Acquisition
+Send Segment to Acquisition
+Cache User Parameters
+Subpanel: Load Data
+Cache User Parameters
+Subpanel: Load Journal
+Cache User Parameters
+Subpanel: Load Profile
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+DCM: Show Values
+DCM: Show Values
+DCM: Edit Values
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+Cache User Parameters
+SavePatientData
+Update Display
+DCM: Update Variables
+DCM: Edit Values
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+DCM: Show Values
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+ResetToDefault
+LoadNameCpr
+Cache User Parameters
+SelectCpr
+DCM: Update Variables
+DCM: Load DICOM Info
+Load Armpressure
+Cache User Parameters
+Exit

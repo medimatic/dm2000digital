@@ -1,0 +1,153 @@
+Dansk	Engelsk	Fransk	Dansk	Engelsk	Fransk	
+CPR Nummer	Patient ID	Numéro de sécurité sociale	AddName.vi	AddName.vi	Ajouter un nom.vi	
+Navn	Name 	Nom	Tilføj Navn	Add Name	Ajouter un nom	
+Tilføj CPR	Add Patient ID	Ajouter NSS	Navn	Name	Nom	
+Operatør	Operator	Manipulateur	Gem	Save	Sauvegarder	
+Læge	Doctor	Médecin	Annuller	Cancel	Annuler	
+Hospital	Hospital	Hôpital	Type Cpr Number.vi		Enregistrer le NSS.vi	
+Rediger	Edit	Éditer	Indtast CPR Nummer	Type Patient ID	Insérer le NSS	
+Adresse	Address	Adresse	CPR Nummer	Patient ID	NSS	
+Kommentar	Comment	Remarquer	Gem	Save	Sauvegarder	
+Afdeling	Department	Service	Annuller	Cancel	Annuler	
+Søg	Search	Rechercher	Slet	Clear	Effacer	
+			Der skal være 10 tal i et CPR nr	Patient ID cannot be empty		
+Metode	Method	Méthode	SaveHospInfo.vi		Enregistrer l'information hôpital.vi	
+Teknik	Technique	Technique	Rediger Hospitalsinfo	Edit Hospital Info	Modifier les informations sur l'hôpital	
+Segment	Segment	Segmentaire	Hospital	Hospital	Hôpital	
+Højre	Right	Droit	Afdeling	Department	Service	
+Venstre	Left	Gauche	Adresse	Address	adresse	
+Højre	Right	Droit	Gem	Save	Sauvegarder	
+Venstre	Left	Gauche	Annuller	Cancel	Annuler	
+Puls	Puls	Pouls	SaveDatapath.vi		Enregistrer le chemin de données.vi	
+Højdejustering	Height Adjustment	Réglage de la hauteur	Rediger Datamappe	Edit Data Folder	Modifier le dossier de données	
+Gem	Save	Sauvegarder	Vælg ny mappe	Select new folder	Sélectionner nouveau dossier	
+Sprog	Language	Langue	Gem	Save	Sauvegarder	
+Øvrige	Additional	Supplémentaire	Annuller	Cancel	Annuler	
+Palpation	Palpation	Palpation	Nuværende Mappe	Current Folder	Dossier en cours	
+Palpation	Palpation	Palpation	SaveReportPath.vi		Enregistrer le chemin.vi	
+Temperatur	Temperature	Température	Rediger Journalmappe	Edit Report Folder	Modifier le dossier Rapport	
+			Vælg ny mappe	Select new folder	Sélectionnez nouveau dossier	
+			Gem	Save	Sauvegarder	
+			Annuller	Cancel	Annuler	
+Aktive grafer	Active graphs	Activer les Graphiques	Nuværende Mappe	Current Folder	Dossier en cours	
+A/D Konvertering	A/D Converter	Convertisseur A / D	AutomaticCalibration.vi		Étalonnage automatique.vi	
+Filter	Filter	Filtrer	Kalibrering	Calibration	Étalonnage	
+Kalibrering	Calibration	Étalonnage	Kalibrér	Calibrate	Étalonner	
+			Annuller	Cancel	Annuler	
+Deaktiver Tangenter	Deactivate Tangents	Désactiver Tangentes	login_popup.vi			
+Filter	Filter	Filtrer	Login	Login	Login	
+ 	 	 	Login	Login	Login	
+Højdejustering	Height Adjustment	Réglage de la hauteur	Annuller	Cancel	Annuler	
+ 	 	 	change_password.vi			
+Eksporter	Export	Exporter	Ændre kodeord	Change password	Changer le mot de passe	
+Journal	Report	Rapport	Nuværende Kodeord	Old password	Ancien mot de passe	
+ 	 	 	Nyt Kodeord	New password	Nouveau mot de passe	
+ 	 	 	Gentag	Repeat	Répéter	
+			Ændre	Change	Changer	
+Mail	Mail	Poster	Annuller	Cancel	Annuler	
+Måling	Measurement	Mesures	UpdateDM2000.vi			
+Blå/højre	Blue/right	Bleu / droite	Opdater	Update		
+Rød/venstre	Red/left	Rouge / gauche	Søg efter opdatering	Search for update		
+Profil	Profile	Profil	Opdater	Update		
+Konfiguration	Configuration	Configuration				
+Dataopsamling	Acquisition	Acquisition				
+Data	Data	Données				
+Journaler	Reports	Rapport				
+Distal Tryk	Distal Pressure	Pression Distale				
+Hudperfusionstryk	Skin perfusion pressure	Pression de perfusion cutanée	Rediger Datamappe	Edit Datapath	Modifier le dossier de données	
+Flow	Flow	Debit	Rediger Journalmappe	Edit Reportpath	Modifier le dossier du rapport	
+Cerebral blodtryk	Cerebral Blod Pressure	Pression Sanguine Cérébrale	Ændre kodeord	Change Password	Changer le mot de passe	
+Strain Gauge	Strain Gauge	Jau de contrainte				
+Photoplethysmograf	Photoplethysmography	PPGO				
+Tå	Toe	Orteil				
+Ankel	Ankle	Cheville				
+Over Knæ	Above Knee	Dessus le Genou				
+Under Knæ	Below Knee	Sous le Genou				
+Hæl	Heel	Talon				
+Forfod	Forefoot	Avant pied				
+Finger	Finger	Doigt				
+Begge	Both	Les deux				
+Blå	Blue	Bleu 				
+Rød	Red	Rouge 				
+Distal Tryk	Distal Pressure	Pression Distale				
+Hudperfusionstryk	Skin Perfusion Pressure	Pression de perfusion cutanée				
+Distal Tryk: Finger	Distal Pressure: Finger	Pression Distale: Doigt				
+Systolisk	Systolic	Systolique				
+Diastolisk	Diastolic	Diastolique				
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						

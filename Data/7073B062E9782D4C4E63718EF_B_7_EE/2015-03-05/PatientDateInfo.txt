@@ -1,0 +1,1 @@
+{"profile":{"id":"7073B062E9782D4C4E63718EF_B_7_EE","name":"Doe, John","operator":"Simon","doctor":"Simon","comment":"Ingen kommentar"},"hospital":{"name":"Medimatic","department":"Q","address":"Hellerupvej 75\n2900 Hellerup"},"palpation":{"right":"","left":""},"Armpressure Right":[],"Armpressure Left":[]}
