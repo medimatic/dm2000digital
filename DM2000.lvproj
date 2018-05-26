@@ -15,7 +15,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="main.lvlib" Type="Library" URL="../main.lvlib"/>
-		<Item Name="signaltest.vi" Type="VI" URL="../signaltest.vi"/>
 		<Item Name="AppIcon.ico" Type="Document" URL="../AppIcon.ico"/>
 		<Item Name="license.rtf" Type="Document" URL="../license.rtf"/>
 		<Item Name="logo.ico" Type="Document" URL="../Logo/logo.ico"/>
@@ -806,6 +805,7 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -903,7 +903,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{44AB56D9-5A55-4CD1-AC83-D3D98E10A7E0}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">61</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DM2000 Digital.exe</Property>
@@ -916,7 +916,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/DM2000 Digital</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{12DE61D8-20A8-4DDB-B119-283B30307F0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{17E0FB37-8C21-4BD9-B8E8-40BBE1DC3CB8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.lvlib/Data Processing/DataConversion.vi</Property>
@@ -1108,7 +1108,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{34F1B33B-181D-4C4D-BAE6-B83DAE7F35F5}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">DM2000 Digital Update</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.92</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.94</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Medimatic A/S</Property>
